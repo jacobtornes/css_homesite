@@ -1,0 +1,164 @@
+a {
+  color: #E6B31E;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Source Code Pro', monospace;
+  margin: 10px 30px;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #E6B31E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'WindSong', cursive;
+  color: #E6B31E;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: normal;
+  font-family: 'Source Code Pro', monospace;
+}
+
+h3 {
+  color: black;
+  font-family: 'Source Code Pro', monospace;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Source Code Pro', monospace;
+  line-height: 2;
+  color: black;
+}
+
+/**************************************class selectors ************************************/
+.bottom-container {
+  background-color: black;
+  margin-top: 80px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.btn {
+  border-radius: 8px;
+  font-family: 'Source Code Pro', monospace;
+  color: #E6B31E;
+  font-size: 20px;
+  background: black;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+.copyrightText {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #E6B31E;
+}
+
+.cloudPositioning1 {
+  position: absolute;
+  top: 70px;
+  right: 500px;
+}
+
+.cloudPositioning2 {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+
+.dotColor {
+  color: #A1B6CC;
+}
+
+.footerlink {}
+
+.proText {
+  color: #A1B6CC;
+}
+
+.middle-container {
+  padding-top: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.img_positioning {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.clear_skill_row {
+  clear: left;
+}
+
+.dotted_hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 4%;
+  color: black;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /*#EAF6F6;*/
+}
+
+.jacobCircle {
+  margin-top: 75px;
+  width: 150px;
+}
+
+.jacobCircle:hover {
+  -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**************************************ID selectors ************************************/
+#topDiv {
+  padding-top: 150px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+/* Codes to test out
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+...
+<IMG class="displayed" src="..." alt="...">
+
+*/
